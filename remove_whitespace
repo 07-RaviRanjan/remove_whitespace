@@ -1,0 +1,6 @@
+def remove_whitespace(string):
+  reuslt = ''.join(string.split())
+  return result
+string = "Hello world! This is a test for string"
+result=remove_whitespace(string)
+print(result)
